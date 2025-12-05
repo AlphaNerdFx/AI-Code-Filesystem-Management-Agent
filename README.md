@@ -59,19 +59,34 @@ User → Model → Function Call → Tool Result → Model → …
 
 
 youssef_ai/
+
 │
+
 ├── main.py # Entry point and agent loop
+
 ├── prompts.py # System prompt definition
+
 │
+
 ├── functions/
+
 │ ├── function_calling.py # Central function call handler
+
 │ ├── get_files_info.py # Directory listing tool
+
 │ ├── get_file_content.py # File reader tool
+
 │ ├── write_file.py # File writing tool
+
+
 │ └── run_python_file.py # Python execution tool
+
 │
+
 ├── calculator/ # Example project for the agent to operate on
+
 │
+
 └── .env # Gemini API key
 
 
