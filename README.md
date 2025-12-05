@@ -59,36 +59,20 @@ User → Model → Function Call → Tool Result → Model → …
 
 
 youssef_ai/
-
 │
-
 ├── main.py # Entry point and agent loop
-
 ├── prompts.py # System prompt definition
-
 │
-
-├── functions/
-
+├── functions/ # Tool implementations
 │ ├── function_calling.py # Central function call handler
-
 │ ├── get_files_info.py # Directory listing tool
-
 │ ├── get_file_content.py # File reader tool
-
 │ ├── write_file.py # File writing tool
-
-
 │ └── run_python_file.py # Python execution tool
-
 │
-
 ├── calculator/ # Example project for the agent to operate on
-
 │
-
 └── .env # Gemini API key
-
 
 ---
 
@@ -143,13 +127,14 @@ Plugin-based tools
 
 REPL execution mode
 
-📜 License
+🛡️ License
 
-MIT License (adjust as needed).
+This project is licensed under the MIT License. You are free to use, modify, and share this project with proper attribution.
 
+🌟 About Me
 
-If you want, I can also generate:  
-🔥 a **GitHub-ready description**,  
-🔥 a **project logo**,  
-🔥 a **professional tagline**,  
-🔥 or convert this into a **powered-by-Gemini badge**.
+Hi there! I'm Youssef Larbi. I’m a data enthusiast and passionate Data Science student, driven to attain as much knowledge about the field and integrate Data/IT into every aspect of my day-to-day life!
+
+Let's stay in touch! Feel free to connect with me on the following platforms:
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/youssef-larbi-1350a5283/)
