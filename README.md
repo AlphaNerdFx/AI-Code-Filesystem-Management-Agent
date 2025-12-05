@@ -57,7 +57,7 @@ User → Model → Function Call → Tool Result → Model → …
 ## 📁 Project Structure
 
 
-
+```
 youssef_ai/
 │
 ├── main.py # Entry point and agent loop
@@ -73,7 +73,7 @@ youssef_ai/
 ├── calculator/ # Example project for the agent to operate on
 │
 └── .env # Gemini API key
-
+```
 ---
 
 ## ⚙️ Setup
@@ -82,29 +82,33 @@ youssef_ai/
 ```bash
 git clone <your-repo-url>
 cd youssef_ai
-
+```
 2. Install dependencies
+```
 pip install -r requirements.txt
-
+```
 3. Add your Gemini API Key
-
 Create a .env file:
-
+```
 GEMINI_API_KEY=your_key_here
-
+```
 4. Run the agent
+```
 uv run main.py "Fix the bug in the calculator"
-
+```
 🧪 Example Commands
 List files
+```
 uv run main.py "List the files in the root"
-
+```
 Read a file
+```
 uv run main.py "Show me the contents of tests.py"
-
+```
 Debug automatically
+```
 uv run main.py "Find and fix bugs in the project"
-
+```
 🔒 Safety
 
 Tools restricted to working directory
